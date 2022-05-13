@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+	--pure-white: #ffffff;
+
+	--primary-color: #ccc;
+	--secondary-color: #d0dde9;
+	--tertiary-color: #edf0f8;
+
+	--border-color: var(--primary-color);
+
+	--accent-color: #7c3aed;
+	--text-color: #444444;
+	--code-highlight-color: var(--accent-color);
+
+	--link-hover-color: var(--text-color);
+	font-family: 'Noto Sans KR', sans-serif;
+	color: var(--text-color);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--link-hover-color);
+}
+
